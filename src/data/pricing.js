@@ -1,0 +1,47 @@
+export const pricingPlans = [
+  {
+    id: 'starter',
+    tier: 'Starter',
+    price: 15,
+    tagline: 'Idéal pour commencer ton parcours fitness.',
+    featured: false,
+    features: [
+      { label: 'Accès salle illimité',    included: true  },
+      { label: 'Vestiaires & douches',    included: true  },
+      { label: 'Bilan de forme initial',  included: true  },
+      { label: 'Cours collectifs inclus', included: false },
+      { label: 'Coaching personnalisé',   included: false },
+      { label: 'App mobile premium',      included: false },
+    ],
+  },
+  {
+    id: 'elite',
+    tier: 'Elite',
+    price: 25,
+    tagline: 'Le choix de nos membres les plus motivés.',
+    featured: true,
+    features: [
+      { label: 'Accès salle illimité',    included: true  },
+      { label: 'Vestiaires & douches',    included: true  },
+      { label: 'Bilan de forme initial',  included: true  },
+      { label: 'Cours collectifs inclus', included: true  },
+      { label: '2 séances coaching/mois', included: true  },
+      { label: 'App mobile premium',      included: false },
+    ],
+  },
+  {
+    id: 'vip',
+    tier: 'Titan VIP',
+    price: 45,
+    tagline: "L'expérience complète. Sans compromis.",
+    featured: false,
+    features: [
+      { label: 'Accès salle illimité',    included: true },
+      { label: 'Vestiaires VIP & sauna',  included: true },
+      { label: 'Bilan complet mensuel',   included: true },
+      { label: 'Tous cours collectifs',   included: true },
+      { label: 'Coaching illimité',       included: true },
+      { label: 'App mobile premium',      included: true },
+    ],
+  },
+]
