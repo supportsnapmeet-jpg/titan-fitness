@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-badge">
           <span className="hero-badge-dot" />
-          🔥 Abidjan · Côte d'Ivoire
+          💪 Angré, Abidjan · Côte d'Ivoire
         </div>
 
         <h1 className="hero-title">
@@ -20,13 +20,13 @@ export default function Hero() {
         </h1>
 
         <p className="hero-sub">
-          La salle de sport premium d'Abidjan. Équipements de niveau mondial,
-          coachs certifiés, résultats garantis. Ta transformation commence ici.
+          O'Zone Fitness GYM — La salle de sport de référence à Angré.
+          Ouverte 7j/7 de 6h à 22h30. Ta transformation commence ici.
         </p>
 
         <div className="hero-actions">
           <a href="#pricing" className="btn-primary">
-            Commencer Maintenant →
+            Voir les Tarifs →
           </a>
           <a href="#programs" className="btn-ghost">
             ▶ Nos Programmes

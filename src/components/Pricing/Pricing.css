@@ -14,9 +14,10 @@
   gap: 1rem;
 }
 
+/* 2 colonnes pour 4 cartes */
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
 }
 
@@ -170,6 +171,6 @@
   .pricing-header { flex-direction: column; }
 }
 @media (max-width: 640px) {
-  .price-card   { padding: 1.8rem; }
-  .price-num    { font-size: 2.8rem; }
+  .price-card { padding: 1.8rem; }
+  .price-num  { font-size: 2.8rem; }
 }

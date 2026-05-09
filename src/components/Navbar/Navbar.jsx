@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 import './Navbar.css'
 
 const navLinks = [
-  { label: 'À Propos',   href: '#about'        },
-  { label: 'Programmes', href: '#programs'      },
-  { label: 'Coaches',    href: '#coaches'       },
-  { label: 'Galerie',    href: '#gallery'       },
-  { label: 'Tarifs',     href: '#pricing'       },
+  { label: 'À Propos',   href: '#about'    },
+  { label: 'Programmes', href: '#programs' },
+  { label: 'Coaches',    href: '#coaches'  },
+  { label: 'Galerie',    href: '#gallery'  },
+  { label: 'Tarifs',     href: '#pricing'  },
 ]
 
 export default function Navbar() {
@@ -30,7 +30,7 @@ export default function Navbar() {
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <a href="#hero" className="logo">
-          TITAN<span>.</span>FIT
+          O'ZONE<span>.</span>GYM
         </a>
 
         <ul className="nav-links">
@@ -40,7 +40,7 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <a href="#contact" className="nav-cta">Essai Gratuit</a>
+            <a href="#contact" className="nav-cta">Nous Rejoindre</a>
           </li>
         </ul>
 
@@ -63,12 +63,12 @@ export default function Navbar() {
         </ul>
         <div className="mobile-cta-wrap">
           <a href="#contact" className="mobile-cta" onClick={closeMenu}>
-            🔥 Essai Gratuit — 1 Semaine
+            💪 Nous Rejoindre
           </a>
         </div>
         <div className="mobile-contact">
           <p>Appelez-nous maintenant</p>
-          <a href="tel:+2250700000000">+225 07 00 00 00 00</a>
+          <a href="tel:+2250799578976">+225 07 99 57 89 76</a>
         </div>
       </div>
     </>

@@ -1,25 +1,24 @@
 import './Footer.css'
 
 const navLinks = [
-  { label: 'À Propos',   href: '#about'        },
-  { label: 'Programmes', href: '#programs'      },
-  { label: 'Nos Coachs', href: '#coaches'       },
-  { label: 'Tarifs',     href: '#pricing'       },
-  { label: 'Galerie',    href: '#gallery'       },
+  { label: 'À Propos',   href: '#about'    },
+  { label: 'Programmes', href: '#programs' },
+  { label: 'Nos Coachs', href: '#coaches'  },
+  { label: 'Tarifs',     href: '#pricing'  },
+  { label: 'Galerie',    href: '#gallery'  },
 ]
 
 const horaires = [
-  { label: 'Lun – Ven : 5h – 23h'  },
-  { label: 'Samedi : 6h – 22h'     },
-  { label: 'Dimanche : 7h – 20h'   },
-  { label: 'Jours fériés : 8h – 18h' },
+  { label: 'Lun – Dim : 6h – 22h30' },
+  { label: 'Non-stop 7j/7'           },
+  { label: 'Ouvert les jours fériés' },
 ]
 
 const contacts = [
-  { icon: '📍', text: 'Zone 4, Avenue Houphouët-Boigny, Abidjan' },
-  { icon: '📞', text: '+225 07 XX XX XX XX'                       },
-  { icon: '✉',  text: 'contact@titanfit.ci'                       },
-  { icon: '💬', text: 'WhatsApp Business'                         },
+  { icon: '📍', text: 'Non loin de la pharmacie Saint Christophe, Angré, Abidjan' },
+  { icon: '📞', text: '+225 07 99 57 89 76'        },
+  { icon: '✉',  text: 'contact@ozonefitnessgym.ci' },
+  { icon: '💬', text: 'WhatsApp : 07 99 57 89 76'  },
 ]
 
 const socials = [
@@ -39,17 +38,17 @@ export default function Footer() {
         <div className="footer-cta-overlay" />
         <div className="footer-cta-content">
           <p className="section-label" style={{ justifyContent: 'center' }}>
-            Offre Spéciale
+            Rejoins-nous
           </p>
           <h2 className="footer-cta-title">
-            PREMIÈRE SEMAINE<br />
-            <span className="accent">GRATUITE</span>
+            COMMENCE<br />
+            <span className="accent">AUJOURD'HUI</span>
           </h2>
           <p className="footer-cta-sub">
-            Aucun engagement. Viens tester. Vis l'expérience Titan.
+            Ouvre 7j/7 de 6h à 22h30. Viens tester. Vis l'expérience O'Zone.
           </p>
-          <a href="tel:+2250700000000" className="btn-primary">
-            🔥 Réserver Mon Essai Gratuit
+          <a href="tel:+2250799578976" className="btn-primary">
+            💪 Appeler Maintenant
           </a>
         </div>
       </div>
@@ -61,11 +60,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="footer-brand">
             <a href="#hero" className="logo">
-              TITAN<span>.</span>FIT
+              O'ZONE<span>.</span>GYM
             </a>
             <p>
-              La salle de sport premium d'Abidjan.
-              On forge des champions depuis 2016. Rejoins l'élite.
+              La salle de sport de référence à Angré, Abidjan.
+              Ouverte 7j/7 de 6h à 22h30. Rejoins la famille O'Zone !
             </p>
             <div className="social-links">
               {socials.map((s) => (
@@ -116,7 +115,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="footer-bottom">
           <p className="footer-copy">
-            © 2024 <span className="accent">TITAN FITNESS</span>. Tous droits réservés. Abidjan, Côte d'Ivoire.
+            © 2025 <span className="accent">O'ZONE FITNESS GYM</span>. Tous droits réservés. Angré, Abidjan.
           </p>
           <p className="footer-copy">
             Paiement : Wave · Orange Money · MTN Money · Espèces
