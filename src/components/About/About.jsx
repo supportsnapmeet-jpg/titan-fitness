@@ -1,10 +1,10 @@
 import './About.css'
 
 const features = [
-  { icon: '⚡', title: 'Équipement Premium',  desc: 'Machines Technogym importées'              },
-  { icon: '🏆', title: 'Coachs Certifiés',    desc: 'Diplômés & certifiés internationalement'   },
-  { icon: '📱', title: 'App Mobile',           desc: 'Suivi & réservation en temps réel'         },
-  { icon: '🌙', title: 'Ouvert 7j/7',          desc: '5h00 – 23h00 pour tous les rythmes'        },
+  { icon: '⚡', title: 'Équipement de qualité', desc: 'Machines modernes pour tous les niveaux'     },
+  { icon: '🏆', title: 'Coachs Certifiés',      desc: 'Diplômés & certifiés internationalement'     },
+  { icon: '🕕', title: 'Ouvert 7j/7',           desc: '6h00 – 22h30, même les jours fériés'         },
+  { icon: '📍', title: 'Bien situé',             desc: 'Non loin de la pharmacie Saint Christophe, Angré' },
 ]
 
 export default function About() {
@@ -26,7 +26,7 @@ export default function About() {
         />
         <div className="about-badge" aria-hidden="true">
           <span className="about-badge-num">N°1</span>
-          <span className="about-badge-txt">Abidjan</span>
+          <span className="about-badge-txt">Angré</span>
         </div>
       </div>
 
@@ -36,9 +36,10 @@ export default function About() {
           LA SALLE QUI<br />CHANGE DES VIES
         </h2>
         <p className="section-sub reveal reveal-delay-2">
-          Depuis 2016, TITAN FITNESS accompagne les Ivoiriens dans leur
-          transformation physique et mentale. Chaque corps mérite le meilleur
-          — et nous le prouvons chaque jour.
+          O'Zone Fitness GYM accompagne les Ivoiriens dans leur transformation
+          physique et mentale. Situé à Angré, Abidjan, nous sommes ouverts
+          7j/7 de 6h à 22h30. Chaque corps mérite le meilleur — et nous le
+          prouvons chaque jour.
         </p>
 
         <div className="about-features">

@@ -2,10 +2,10 @@ import { useCounter } from '../../hooks/useCounter'
 import './Stats.css'
 
 const stats = [
-  { target: 2400, suffix: '+', label: 'Membres Actifs'      },
-  { target: 18,   suffix: '',  label: 'Coachs Certifiés'    },
-  { target: 40,   suffix: '+', label: 'Cours / Semaine'     },
-  { target: 8,    suffix: '',  label: "Années d'Excellence" },
+  { target: 500,  suffix: '+', label: 'Membres Actifs'      },
+  { target: 5,    suffix: '',  label: 'Coachs Certifiés'    },
+  { target: 7,    suffix: 'j/7', label: 'Ouvert'            },
+  { target: 6,    suffix: 'h – 22h30', label: 'Horaires'    },
 ]
 
 function StatItem({ target, suffix, label }) {
