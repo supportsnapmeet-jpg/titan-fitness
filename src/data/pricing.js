@@ -2,7 +2,7 @@ export const pricingPlans = [
   {
     id: 'jour-sans',
     tier: 'Journée Sans Tapis',
-    price: 2,
+    price: 2000,
     tagline: 'Accès à la journée, sans tapis de sol.',
     featured: false,
     features: [
@@ -17,7 +17,7 @@ export const pricingPlans = [
   {
     id: 'jour-avec',
     tier: 'Journée Avec Tapis',
-    price: 3,
+    price: 3000,
     tagline: 'Accès à la journée avec tapis de sol.',
     featured: false,
     features: [
@@ -32,7 +32,7 @@ export const pricingPlans = [
   {
     id: 'mois-sans',
     tier: 'Mensuel Sans Tapis',
-    price: 25,
+    price: 25000,
     tagline: 'Abonnement mensuel sans tapis de sol.',
     featured: false,
     features: [
@@ -47,7 +47,7 @@ export const pricingPlans = [
   {
     id: 'mois-avec',
     tier: 'Mensuel Avec Tapis',
-    price: 30,
+    price: 30000,
     tagline: "L'abonnement complet avec tapis de sol.",
     featured: true,
     features: [

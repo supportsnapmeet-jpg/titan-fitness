@@ -29,8 +29,12 @@ export default function Navbar() {
   return (
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-        <a href="#hero" className="logo">
-          O'ZONE<span>.</span>GYM
+        <a href="#hero" className="logo-wrap">
+          <img
+            src="/logo.png"
+            alt="O'Zone Fitness GYM"
+            className="logo-img"
+          />
         </a>
 
         <ul className="nav-links">

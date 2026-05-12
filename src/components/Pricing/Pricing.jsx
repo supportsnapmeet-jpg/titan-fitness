@@ -13,10 +13,12 @@ function PriceCard({ plan, delay }) {
       <div className="price-tier">{plan.tier}</div>
 
       <div className="price-amount">
-        <span className="price-num">{plan.price}K</span>
+        <span className="price-num">
+          {plan.price.toLocaleString('fr-FR')}
+        </span>
         <span className="price-cur">FCFA</span>
         <span className="price-per">
-          {isJournee ? '/ jour' : '/ mois'}
+          {plan.id.startsWith('jour') ? '/ jour' : '/ mois'}
         </span>
       </div>
 
