@@ -26,13 +26,13 @@
   z-index: 2;
 }
 .logo-img {
-  height: 70px;
+  height: 90px;
   width: auto;
   object-fit: contain;
   transition: height 0.3s ease;
 }
 .navbar.scrolled .logo-img {
-  height: 55px;
+  height: 70px;
 }
 
 .nav-links {
@@ -177,5 +177,5 @@
   .nav-links   { display: none; }
   .hamburger   { display: flex; }
   .mobile-menu { display: flex; }
-  .logo-img    { height: 50px; }
+  .logo-img    { height: 65px; }
 }

@@ -9,7 +9,7 @@
   --white:  #FFFFFF;
   --grey:   #888888;
   --light:  #CCCCCC;
-  --nav-h:  68px;
+  --nav-h:  90px;
 
   --font-display:   'Bebas Neue', sans-serif;
   --font-condensed: 'Barlow Condensed', sans-serif;
@@ -24,7 +24,7 @@
 
 @media (max-width: 640px) {
   :root {
-    --nav-h: 60px;
+    --nav-h: 75px;
     --section-pad: 3.5rem 5vw;
   }
 }
